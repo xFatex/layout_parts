@@ -2,4 +2,30 @@
 
 /* 回答はここに書いてね */
 
+
+table{
+  table-layout: fixed;
+  width: 100%;
+}
+
+
+table, td, th {                     /*tableとtdとth共通*/
+  border: solid 1px #dedede;
+  text-align: center;
+  padding: 14px 0;
+}
+
+th {                                /*thのみ*/
+  background-color: #2244aa;
+  font-size: 18px;
+  color: #fff;
+}
+
+tr:nth-child(2n+1) {                /*tr奇数に色を付ける*/
+  background-color: #ecf1f2;
+}
+
+table tr:last-child {               /*最後の列の上だけ点線*/
+  border-top: dashed 2px #000;
+}
 /* 回答はここに書いてね */
