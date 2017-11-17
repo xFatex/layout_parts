@@ -1,5 +1,32 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q12__message {                   /*吹き出し下の三角部分以外のレイアウト */
+    position: relative;
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 5px solid #222;
+    border-radius: 30px;          /*四角形の角を丸くする*/
+}
 
+.q12__message:before{             /*黒い小さな三角形*/
+  content: "";
+  position: absolute;
+  bottom: -45px;
+  left: 30px;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent; /*四角形の透過*/
+  border-top-color: #222;         /*四角形の上部分のみ色を付ける*/
+}
+
+.q12__message:after{              /*白い大きな三角形*/
+  content: "";
+  position: absolute;
+  bottom: -38px;
+  left: 30px;
+  border: 20px solid transparent; /*四角形の透過*/
+  border-top-color: #FFF;         /*四角形の上部分のみ色を付ける*/
+}
 /* 回答はここに書いてね */
