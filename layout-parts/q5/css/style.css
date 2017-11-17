@@ -2,4 +2,76 @@
 
 /* 回答はここに書いてね */
 
+
+.text_align {
+  text-align: center;             /*text-alignを利用した中央寄せ*/
+}
+
+.text_align p {
+  display: inline-block;
+  padding: 10px;
+  background-color: #e6f2ff;
+}
+
+.text_margin {                    /*marginを利用した中央寄せ*/
+  width: 90px;
+  height: 36px;
+  text-align: center;
+
+  background-color: #e6f2ff;
+
+  line-height: 37px;
+  margin:auto;
+}
+
+.text_table {                     /*tableを利用した天地中央寄せ*/
+  display: table;
+  width:100%;
+  height: 100%;
+}
+
+.text_table_cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text_flex {                      /*flexを利用した天地中央寄せ*/
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.position_margin_outer {          /*position固定、外枠*/
+  position: relative;
+}
+
+.position_margin_inner {          /*position固定、テキスト部分*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 90px;
+  height: 20px;
+  background-color: #FFFFFF;
+}
+
+.position_transform_outer {       /*position可変、外枠*/
+  position: relative;
+}
+
+.position_transform_inner {       /*position可変、テキスト部分*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+
 /* 回答はここに書いてね */
