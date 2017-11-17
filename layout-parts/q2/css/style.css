@@ -2,4 +2,58 @@
 
 /* 回答はここに書いてね */
 
+.submit1 {                          /*背景色のある外枠*/
+  max-width: 940px;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  background-color: #eff3f4;
+}
+.submit2 {                          /*実際に写真とテキストを入れる枠*/
+  max-width: 900px;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding:0 20px 20px;
+
+  font-size: 18px;                  /*テキストのデザイン*/
+  line-height: 22px;
+  word-break: break-all;            /*テキストの折り返し*/
+}
+
+.submit3 {                          /*上半分の枠*/
+  max-width: 900px;
+  width: auto;
+  height: auto;
+  padding-top: 20px;
+
+}
+.submit4 {                          /*下半分の枠*/
+  max-width: 900px;
+  width: auto;
+  height: auto;
+}
+
+.img1 {                             /*写真*/
+  width: auto;
+  height: auto;
+  margin: 0 20px 10px 0;
+  float: left;
+}
+
+.img2 {                             /*写真*/
+  width: auto;
+  height: auto;
+  margin: 0 0 10px 20px;
+  float: right;
+}
+
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /* 回答はここに書いてね */
