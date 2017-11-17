@@ -2,4 +2,52 @@
 
 /* 回答はここに書いてね */
 
+.button_base {            /*全ボタン共通*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;        /*マウスカーソルを指に*/
+  margin: 0 5px;          /*ボタンを離す*/
+}
+
+.small_button {           /*小さいボタン共通*/
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 5px 15px;
+}
+
+.middle_button {          /*中ぐらいのボタン共通*/
+  border-radius:5px;
+  font-size: 20px;
+  padding: 6px 20px;
+}
+
+.large_button {           /*大きいボタン共通*/
+  border-radius:7px;
+  font-size: 24px;
+  padding: 7px 25px;
+}
+
+.button_common {          /*commonボタン共通*/
+  background-color: #00bcd4;
+  border: none;
+  color: #fff;
+}
+
+.button_error {           /*errorボタン共通*/
+  background-color: #ff4081;
+  color: #fff;
+}
+
+.button_disabled {        /*disabledボタン共通*/
+  background-color: #e5e5e5;
+  color: #fff;
+}
+
+.button_shadow {          /*shadowボタン共通*/
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12),
+              0 1px 4px rgba(0,0,0,.12);
+}
+
 /* 回答はここに書いてね */
