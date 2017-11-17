@@ -1,5 +1,156 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q10 {                            /*外枠*/
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+}
+
+.q10__title {                     /*フォームのタイトル*/
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.q10__title:before {              /*タイトルの横棒*/
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.q10__title__txt {                /*タイトルのテキスト部分のデザイン*/
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.q10__main {                      /*フォームの左部分*/
+  float: left;
+  width: 300px;
+}
+
+.q10__main__items {               /*各フォームの間隔*/
+  margin-bottom: 20px;
+}
+.q10__main__items > li:not(:first-child) {
+  margin-top: 20px;
+}
+
+.q10__main__items__title {        /*各フォームのタイトル*/
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.q10__main__items__title .is-required {           /*必須刻目用の赤点*/
+  color: #F00;
+}
+
+.q10__main__items__content {      /*各フォーム入力部分*/
+  float: right;
+  width: 180px;
+}
+
+.q10__input-init {                /*各フォームテキスト入力部分の立体感を消す*/
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.q10__input {                     /*各フォームテキスト入力部分のデザイン*/
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+
+/*↓q7より引用*/
+.q10__radio {                                        /*マウスの形状変更*/
+  cursor: pointer;
+}
+
+.q10__radio__btn {                                   /*display親要素*/
+  display: none;
+}
+
+.q10__radio__txt {                                   /*ラジオボタン共通*/
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.q10__radio__txt:before {                            /*ラジオボタン未選択時*/
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.q10__radio__btn:checked + .q10__radio__txt:after {   /*ラジオボタン選択時*/
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+.q10__main__bottom {                /*送信ボタンのボックス、位置調整*/
+  text-align: right;
+}
+
+.q10__main__bottom__btn {           /*送信ボタンデザイン*/
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.q10__side {                        /*メッセージ入力欄のボックス*/
+  float: right;
+  width: 380px;
+}
+
+.q10__side__txt {                   /*メッセージ入力欄*/
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
 
 /* 回答はここに書いてね */

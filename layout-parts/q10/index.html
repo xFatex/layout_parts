@@ -37,7 +37,54 @@
         ・input(type="submit")
         -->
         <!-- 回答はここに書いてね -->
-
+        <form class="q10">
+          <div class="q10__title">
+            <q class="q10__title__txt">Form Exercise</p>
+          </div>
+          <div class="clearfix">
+            <div class="q10__main">
+              <ul class="q10__main__items">
+                <li class="clearfix">
+                  <p class="q10__main__items__title">name <span class="is-required">*</span></p>
+                  <div class="q10__main__items__content">
+                    <input class="q10__input q10__input-init" type="text" name="q10_1" required>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <p class=q10__main__items__title>Sex</p>
+                  <div class="q10__main__items__content">
+                    <label class="q10__radio">
+                      <input class="q10__radio__btn" type="radio" name="q10_2" value="male">
+                      <spana class="q10__radio__txt">male</span>
+                    </label>
+                    <label class="q10__radio">
+                      <input class="q10__radio__btn" type="radio" name="q10_2" value="female">
+                      <spana class="q10__radio__txt">female</span>
+                    </label>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <p class=q10__main__items__title>Email <span class="is-required">*</span></p>
+                  <div class="q10__main__items__content">
+                    <input class="q10__input q10__input-init" type="text" placeholder="ex) hoge@gmail.com" name="q10_3" required>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <p class=q10__main__items__title>Telephone</p>
+                  <div class="q10__main__items__content">
+                    <input class="q10__input q10__input-init" type="text" placeholder="ex) 08012345678" name="q10_4" required>
+                  </div>
+                </li>
+              </ul>
+              <div class="q10__main__bottom">
+                <input class="q10__main__bottom__btn q10__input-init" type="submit" value="submit">
+              </div>
+            </div>
+            <div class="q10__side">
+              <textarea class="q10__side__txt q10__input-init" name="q10_5" placeholder="Please fill in the message..."></textarea>
+            </div>
+          </div>
+        </form>
         <!-- 回答はここに書いてね -->
     </div>
 </div>
