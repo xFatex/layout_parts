@@ -2,4 +2,163 @@
 
 /* 回答はここに書いてね */
 
+.q7 {
+  font-size: 0;
+  text-align: center;
+}
+
+.q7__box {                                          /*全ボタン共通の箱*/
+  display: inline-block;
+  margin: 10px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.q7__init {                                         /*ボタン共通初期設定*/
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.q7__txt {                                          /*初期入力テキスト設定*/
+  padding: 5px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+}
+.q7__txt::-webkit-input-placeholder {               /*初期入力テキストの色変更*/
+  color: #00BCD4;
+}
+
+
+.q7__textarea {                                     /*テキストエリア*/
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  resize: none;
+}
+
+.q7__radio {                                        /*マウスの形状変更*/
+  cursor: pointer;
+}
+
+.q7__radio__btn {                                   /*display親要素*/
+  display: none;
+}
+
+.q7__radio__txt {                                   /*ラジオボタン共通*/
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.q7__radio__txt:before {                            /*ラジオボタン未選択時*/
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.q7__radio__btn:checked + .q7__radio__txt:after {   /*ラジオボタン選択時*/
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+.q7__check {                                        /*マウスの形状変更*/
+    cursor: pointer;
+}
+
+.q7__check__btn {                                   /*display親要素*/
+  display: none;
+}
+
+.q7__check__txt {                                   /*チェックボックス共通デザイン*/
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 22px;
+}
+
+.q7__check__txt::before {                           /*チェックボックス未選択時*/
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.q7__check__btn:checked + .q7__check__txt::after {  /*チェックボックス選択時*/
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 3px;
+  width: 13px;
+  height: 5px;
+  border-bottom: 2px solid #00BCD4;
+  border-left: 2px solid #00BCD4;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.q7__select {                                       /*セレクトボックス共通デザイン*/
+  position: relative;
+  background-color: #FFF;
+}
+
+.q7__select::before {                               /*セレクトボックスの下向き矢印*/
+  position: absolute;
+  top: 7px;
+  right: 9px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  content: "";
+}
+
+.q7__select__item {                                 /*セレクトボックスデザイン*/
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px 30px 5px 5px;
+  font-size: 14px;
+}
+
+.q7__btn {                                          /*ボタンのデザイン*/
+  padding: 5px 10px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  color: #00BCD4;
+  cursor: pointer;
+}
+
+.q7__btn:active {                                   /*ボタンを押している間色を変える*/
+  background-color: #00BCD4;
+  color: #FFF;
+}
+
 /* 回答はここに書いてね */
