@@ -2,4 +2,120 @@
 
 /* 回答はここに書いてね */
 
+.submit {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  background-color: #ECF1F2;
+
+
+  text-align: center;
+  vertical-align: middle;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+.box1,                            /*1～8と8の重なりの修正部分共通*/
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box8::after
+{
+  position: absolute;
+}
+
+.box1,                            /*箱のサイズ*/
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+  width: 100px;
+  height: 100px;
+}
+
+.box1,
+.box8::after{                   /*box1とbox8の重なり部分の修正*/
+  background-color: #ffefd3;
+}
+
+.box1 {
+  z-index: 1;
+  top: 40px;
+  left: 200px;
+}
+
+.box2 {
+  z-index: 2;
+  top: 120px;
+  left: 280px;
+  background-color: #7084de;
+}
+
+.box3 {
+  z-index: 3;
+  top: 200px;
+  left: 360px;
+  background-color: #d0ecea;
+}
+
+.box4 {
+  z-index: 4;
+  top: 280px;
+  left: 280px;
+  background-color: #8d7a5e;
+}
+
+.box5 {
+  z-index: 5;
+  top: 360px;
+  left: 200px;
+  background-color: #9fd6d2;
+}
+
+.box6 {
+  z-index: 6;
+  top: 280px;
+  left: 120px;
+  background-color: #fffee4;
+}
+
+.box7 {
+  z-index: 7;
+  top: 200px;
+  left: 40px;
+  background-color: #deae70;
+}
+
+.box8 {
+  z-index: 8;
+  top: 120px;
+  left: 120px;
+  background-color: #de70cf;
+  position: absolute;
+}
+
+.box8::after{                       /*box1とbox1とbox8の重なり部分の修正(重なり部分に小さい箱を作る)*/
+  content: "";
+  top: 0;
+  left: 80px;
+  height: 20px;
+  width: 20px;
+}
+
+.box9 {                             /*box9のみ左上に固定*/
+  z-index: 9;
+  position: fixed; top: 10px; left: 10px;
+  background-color: #2b69a3;
+}
+
 /* 回答はここに書いてね */
