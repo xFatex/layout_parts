@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.submit1 {                        /*外枠*/
+.q1__box {                        /*外枠*/
   background-color: #eff3f4;
   height: auto;
   margin: 0 auto;
@@ -10,7 +10,7 @@
   width: 900px;
 }
 
-.square1 > li {                   /*三つの箱をul及びliで横並びに*/
+.q1__square > li {                   /*三つの箱をul及びliで横並びに*/
   background-color: #3274ae;
   float: left;
   height: auto;
@@ -19,11 +19,11 @@
   width: 230px;
 }
 
-.square1 > li:first-child {       /*最初の箱だけ外枠ピッタリに*/
+.q1__square > li:first-child {       /*最初の箱だけ外枠ピッタリに*/
   margin-left: 0;
 }
 
-.square2 {                        /*内側の箱*/
+.q1__small__square {                        /*内側の箱*/
   background-color: #eaf4ff;
   border:solid 10px #022336;
   box-sizing: border-box;
@@ -32,7 +32,7 @@
   width: 230px;
 }
 
-.box_text {                       /*箱の中のテキストのデザイン*/
+.q1__text {                       /*箱の中のテキストのデザイン*/
   font-size: 16px;
   line-height: 16px;
 }
