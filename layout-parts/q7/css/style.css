@@ -28,18 +28,22 @@
 
 .q7__txt {                                          /*初期入力テキスト設定*/
   padding: 5px;
-  border: 1px solid #00BCD4;
+  border: 1px solid #00bcd4;
   border-radius: 5px;
 }
+
 .q7__txt::-webkit-input-placeholder {               /*初期入力テキストの色変更*/
-  color: #00BCD4;
+  color: #00bcd4;
 }
 
+.q7__txt:focus {
+  box-shadow: 0 0 7px #00bcd4;
+}
 
 .q7__textarea {                                     /*テキストエリア*/
   height: 40px;
   padding: 5px;
-  border: 1px solid #00BCD4;
+  border: 1px solid #00bcd4;
   border-radius: 5px;
   resize: none;
 }
@@ -78,7 +82,7 @@
   width: 8px;
   height: 8px;
   margin-top: -4px;
-  background-color: #00BCD4;
+  background-color: #00bcd4;
   border-radius: 50%;
   content: '';
 }
