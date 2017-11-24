@@ -3,11 +3,10 @@
 /* 回答はここに書いてね */
 
 
-table{
+table {
   table-layout: fixed;
   width: 100%;
 }
-
 
 table, td, th {                     /*tableとtdとth共通*/
   border: solid 1px #dedede;
@@ -16,7 +15,7 @@ table, td, th {                     /*tableとtdとth共通*/
 }
 
 th {                                /*thのみ*/
-  background-color: #2244aa;
+  background-color: #24a;
   font-size: 18px;
   color: #fff;
 }
