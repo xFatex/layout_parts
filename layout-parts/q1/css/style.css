@@ -3,39 +3,33 @@
 /* 回答はここに書いてね */
 
 .submit1 {                        /*外枠*/
-  width: 900px;
-  height: auto;
-  padding: 20px;
-  margin: 0 auto;
   background-color: #eff3f4;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  width: 900px;
 }
 
 .square1 > li {                   /*三つの箱をul及びliで横並びに*/
-  width: 270px;
-  height: auto;
   background-color: #3274ae;
-  margin-left: 20px;
   float: left;
-
+  height: auto;
+  margin-left: 20px;
+  padding: 20px;
+  width: 230px;
 }
 
 .square1 > li:first-child {       /*最初の箱だけ外枠ピッタリに*/
   margin-left: 0;
 }
 
-.submit2 {                        /*内側の箱の枠*/
-  width: 230px;
-  height: auto;
-  padding: 20px;
-}
-
 .square2 {                        /*内側の箱*/
-  width: 230px;
+  background-color: #eaf4ff;
+  border:solid 10px #022336;
+  box-sizing: border-box;
   height: auto;
   padding: 20px;
-  border:solid 10px #022336;
-  background-color: #eaf4ff;
-  box-sizing: border-box;
+  width: 230px;
 }
 
 .box_text {                       /*箱の中のテキストのデザイン*/
@@ -45,9 +39,9 @@
 
 .clearfix::before,
 .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
+  clear: both;
+  content: "";
+  display: block;
 }
 
 /* 回答はここに書いてね */
