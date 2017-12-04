@@ -2,75 +2,88 @@
 
 /* 回答はここに書いてね */
 
-
-.text_align {
-  text-align: center;             /*text-alignを利用した中央寄せ*/
-}
-
-.text_align p {
-  display: inline-block;
-  padding: 10px;
-  background-color: #e6f2ff;
-}
-
-.text_margin {                    /*marginを利用した中央寄せ*/
+.q5__horizontal__box__txt {       /*テキストのデザイン*/
   width: 90px;
-  height: 36px;
+  padding: 10px 0;
+  background-color: #E6F2FF;
   text-align: center;
+}
 
-  background-color: #e6f2ff;
+.q5__text__align {                /*text-alignを利用した中央寄せ*/
+  text-align: center;
+}
 
-  line-height: 37px;
+.q5__textalign__inner {
+  display: inline-block;
+}
+
+.q5__text__margin {               /*marginを利用した中央寄せ*/
   margin:auto;
 }
 
-.text_table {                     /*tableを利用した天地中央寄せ*/
+.q5__table {
   display: table;
-  width:100%;
-  height: 100%;
 }
 
-.text_table_cell {
+.q5__table__inner {                 /*tableを利用した天地中央寄せ*/
   display: table-cell;
+  background-color: #ECF1F2;
   text-align: center;
   vertical-align: middle;
 }
 
-.text_flex {                      /*flexを利用した天地中央寄せ*/
-  width: 100%;
-  height: 100%;
+.q5__table__txt {
+  display: inline-block;
+  padding: 10px;
+  background-color: #FFF;
+}
+
+.q5__flex {                         /*flexを利用した天地中央寄せ*/
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-.position_margin_outer {          /*position固定、外枠*/
+.q5__flex__txt {
+  display: inline-block;
+  padding: 10px;
+  background-color: #FFF;
+}
+
+.q5__position__box {                  /*position固定、外枠*/
   position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin: 0 10px;
+  background-color: #FFF;
+  font-size: 16px;
+  vertical-align: top;
 }
 
-.position_margin_inner {          /*position固定、テキスト部分*/
+.q5__position__box__inner {          /*position共通部分*/
+  background-color: #E6F2FF;
   position: absolute;
+  text-align: center;
+}
+
+.q5__position__box__inner.is-stable { /*position固定*/
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  width: 110px;
+  height: 30px;
   margin: auto;
-  width: 90px;
-  height: 20px;
-  background-color: #FFFFFF;
+  line-height: 30px;
 }
 
-.position_transform_outer {       /*position可変、外枠*/
-  position: relative;
-}
-
-.position_transform_inner {       /*position可変、テキスト部分*/
-  position: absolute;
+.q5__position__box__inner.is-flexible { /*position可変*/
   top: 50%;
   left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
+  display: inline-block;
+  padding: 10px;
+  transform: translate(-50%, -50%);
 }
 
 
