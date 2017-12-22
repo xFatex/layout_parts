@@ -5,7 +5,7 @@
 .q5__horizontal__box__txt {       /*テキストのデザイン*/
   width: 90px;
   padding: 10px 0;
-  background-color: #E6F2FF;
+  background-color: #e6f2ff;
   text-align: center;
 }
 
@@ -18,16 +18,16 @@
 }
 
 .q5__text__margin {               /*marginを利用した中央寄せ*/
-  margin:auto;
+  margin: auto;
 }
 
 .q5__table {
   display: table;
 }
 
-.q5__table__inner {                 /*tableを利用した天地中央寄せ*/
+.q5__table__inner {     /*tableを利用した天地中央寄せ*/
   display: table-cell;
-  background-color: #ECF1F2;
+  background-color: #ecf1f2;
   text-align: center;
   vertical-align: middle;
 }
@@ -35,7 +35,7 @@
 .q5__table__txt {
   display: inline-block;
   padding: 10px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .q5__flex {                         /*flexを利用した天地中央寄せ*/
@@ -47,7 +47,7 @@
 .q5__flex__txt {
   display: inline-block;
   padding: 10px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .q5__position__box {                  /*position固定、外枠*/
@@ -56,13 +56,13 @@
   width: 300px;
   height: 200px;
   margin: 0 10px;
-  background-color: #FFF;
+  background-color: #fff;
   font-size: 16px;
   vertical-align: top;
 }
 
 .q5__position__box__inner {          /*position共通部分*/
-  background-color: #E6F2FF;
+  background-color: #e6f2ff;
   position: absolute;
   text-align: center;
 }
@@ -76,13 +76,16 @@
   height: 30px;
   margin: auto;
   line-height: 30px;
+  text-align: center;
 }
 
-.q5__position__box__inner.is-flexible { /*position可変*/
+.q5__position__box__inner.is-flexible {
+  position: absolute;
   top: 50%;
   left: 50%;
   display: inline-block;
   padding: 10px;
+  text-align: center;
   transform: translate(-50%, -50%);
 }
 
