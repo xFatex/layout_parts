@@ -17,13 +17,13 @@
 }
 
 .middle_button {          /*中ぐらいのボタン共通*/
-  border-radius:5px;
+  border-radius:　5px;
   font-size: 20px;
   padding: 6px 20px;
 }
 
 .large_button {           /*大きいボタン共通*/
-  border-radius:7px;
+  border-radius:　7px;
   font-size: 24px;
   padding: 7px 25px;
 }
