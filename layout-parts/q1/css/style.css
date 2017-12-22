@@ -25,14 +25,11 @@
 
 .q1__small__square {                        /*内側の箱*/
   background-color: #eaf4ff;
-  border:solid 10px #022336;
+  border: solid 10px #022336;
   box-sizing: border-box;
   height: auto;
   padding: 20px;
   width: 230px;
-}
-
-.q1__text {                       /*箱の中のテキストのデザイン*/
   font-size: 16px;
   line-height: 16px;
 }
