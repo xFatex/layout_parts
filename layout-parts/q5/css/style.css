@@ -2,14 +2,14 @@
 
 /* 回答はここに書いてね */
 
-.q5__horizontal__box__txt {       /*テキストのデザイン*/
+.q5__horizontal__box__txt {             /*テキストのデザイン*/
   width: 90px;
   padding: 10px 0;
   background-color: #e6f2ff;
   text-align: center;
 }
 
-.q5__text__align {                /*text-alignを利用した中央寄せ*/
+.q5__text__align {                      /*text-alignを利用した中央寄せ*/
   text-align: center;
 }
 
@@ -17,15 +17,15 @@
   display: inline-block;
 }
 
-.q5__text__margin {               /*marginを利用した中央寄せ*/
+.q5__text__margin {                     /*marginを利用した中央寄せ*/
   margin: auto;
 }
 
-.q5__table {
+.q5__table {                            /*tableを利用した天地中央寄せ*/
   display: table;
 }
 
-.q5__table__inner {     /*tableを利用した天地中央寄せ*/
+.q5__table__inner {
   display: table-cell;
   background-color: #ecf1f2;
   text-align: center;
@@ -38,7 +38,7 @@
   background-color: #fff;
 }
 
-.q5__flex {                         /*flexを利用した天地中央寄せ*/
+.q5__flex {                             /*flexを利用した天地中央寄せ*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,7 +50,7 @@
   background-color: #fff;
 }
 
-.q5__position__box {                  /*position固定、外枠*/
+.q5__position__box {                    /*position外枠*/
   position: relative;
   display: inline-block;
   width: 300px;
@@ -61,13 +61,13 @@
   vertical-align: top;
 }
 
-.q5__position__box__inner {          /*position共通部分*/
+.q5__position__box__inner {             /*position共通部分*/
   background-color: #e6f2ff;
   position: absolute;
   text-align: center;
 }
 
-.q5__position__box__inner.is-stable { /*position固定*/
+.q5__position__box__inner.is-stable {   /*position固定*/
   top: 0;
   right: 0;
   bottom: 0;
@@ -79,7 +79,7 @@
   text-align: center;
 }
 
-.q5__position__box__inner.is-flexible {
+.q5__position__box__inner.is-flexible { /*position可変*/
   position: absolute;
   top: 50%;
   left: 50%;
