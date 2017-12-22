@@ -120,15 +120,15 @@
   left: 3px;
   width: 13px;
   height: 5px;
-  border-bottom: 2px solid #00BCD4;
-  border-left: 2px solid #00BCD4;
+  border-bottom: 2px solid #00bcd4;
+  border-left: 2px solid #00bcd4;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
 .q7__select {                                       /*セレクトボックス共通デザイン*/
   position: relative;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .q7__select::before {                               /*セレクトボックスの下向き矢印*/
@@ -154,15 +154,15 @@
 
 .q7__btn {                                          /*ボタンのデザイン*/
   padding: 5px 10px;
-  border: 1px solid #00BCD4;
+  border: 1px solid #00bcd4;
   border-radius: 5px;
-  color: #00BCD4;
+  color: #00bcd4;
   cursor: pointer;
 }
 
 .q7__btn:active {                                   /*ボタンを押している間色を変える*/
-  background-color: #00BCD4;
-  color: #FFF;
+  background-color: #00bcd4;
+  color: #fff;
 }
 
 /* 回答はここに書いてね */
